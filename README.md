@@ -18,14 +18,14 @@
   <p align="center">
     Simple dApp interacting with a smart contract in Goerli testnet
     <br />
-    <a href="https://github.com/sawamu-eth/learnweb3-freshman-dapp-mood"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/wtakaman/learnweb3-freshman-dapp-mood"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/sawamu-eth/learnweb3-freshman-dapp-mood">View Demo</a>
+    <a href="https://github.com/wtakaman/learnweb3-freshman-dapp-mood">View Demo</a>
     ·
-    <a href="https://github.com/sawamu-eth/learnweb3-freshman-dapp-mood/issues">Report Bug</a>
+    <a href="https://github.com/wtakaman/learnweb3-freshman-dapp-mood/issues">Report Bug</a>
     ·
-    <a href="https://github.com/sawamu-eth/learnweb3-freshman-dapp-mood/issues">Request Feature</a>
+    <a href="https://github.com/wtakaman/learnweb3-freshman-dapp-mood/issues">Request Feature</a>
   </p>
 </div>
 
@@ -62,21 +62,19 @@ You should have Metamask installed and configured. Check here to find out more:
 Also you need to have some GoerliETH which you can google to find a working faucet.
 
 ### Installation
-
-1. Change Metamask to Goerli tesnet
-2. Run npm install
-2. Open the browser at http://localhost:3000
+Run `npm install & npm run start` 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Open the app at [http://localhost:3000](http://localhost:3000)
+2. Connect yout Metamask - Goerli testnet
+3. Fill the "mood" value
+4. Tap the "Set Mood" button
+5. Sign the transaction on Metamask and wait for it to complete
+6. Tap "Get Mood" button
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -84,7 +82,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
-See the [open issues](https://github.com/sawamu-eth/learnweb3-freshman-dapp-mood/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/wtakaman/learnweb3-freshman-dapp-mood/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -114,22 +112,22 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-sawamu.eth - [@cryptosawamu](https://twitter.com/cryptosawamu) 
-Project Link: [https://github.com/sawamu-eth/learnweb3-freshman-dapp-mood](https://github.com/sawamu-eth/learnweb3-freshman-dapp-mood)
+sawamu.eth - [@wtakaman](https://twitter.com/wtakaman) 
+Project Link: [https://github.com/wtakaman/learnweb3-freshman-dapp-mood](https://github.com/wtakaman/learnweb3-freshman-dapp-mood)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/sawamu-eth/learnweb3-freshman-dapp-mood.svg?style=for-the-badge
-[contributors-url]: https://github.com/sawamu-eth/learnweb3-freshman-dapp-mood/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/sawamu-eth/learnweb3-freshman-dapp-mood.svg?style=for-the-badge
-[forks-url]: https://github.com/sawamu-eth/learnweb3-freshman-dapp-mood/network/members
-[stars-shield]: https://img.shields.io/github/stars/sawamu-eth/learnweb3-freshman-dapp-mood.svg?style=for-the-badge
-[stars-url]: https://github.com/sawamu-eth/learnweb3-freshman-dapp-mood/stargazers
-[issues-shield]: https://img.shields.io/github/issues/sawamu-eth/learnweb3-freshman-dapp-mood.svg?style=for-the-badge
-[issues-url]: https://github.com/sawamu-eth/learnweb3-freshman-dapp-mood/issues
-[license-shield]: https://img.shields.io/github/license/sawamu-eth/learnweb3-freshman-dapp-mood.svg?style=for-the-badge
-[license-url]: https://github.com/sawamu-eth/learnweb3-freshman-dapp-mood/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/wtakaman/learnweb3-freshman-dapp-mood.svg?style=for-the-badge
+[contributors-url]: https://github.com/wtakaman/learnweb3-freshman-dapp-mood/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/wtakaman/learnweb3-freshman-dapp-mood.svg?style=for-the-badge
+[forks-url]: https://github.com/wtakaman/learnweb3-freshman-dapp-mood/network/members
+[stars-shield]: https://img.shields.io/github/stars/wtakaman/learnweb3-freshman-dapp-mood.svg?style=for-the-badge
+[stars-url]: https://github.com/wtakaman/learnweb3-freshman-dapp-mood/stargazers
+[issues-shield]: https://img.shields.io/github/issues/wtakaman/learnweb3-freshman-dapp-mood.svg?style=for-the-badge
+[issues-url]: https://github.com/wtakaman/learnweb3-freshman-dapp-mood/issues
+[license-shield]: https://img.shields.io/github/license/wtakaman/learnweb3-freshman-dapp-mood.svg?style=for-the-badge
+[license-url]: https://github.com/wtakaman/learnweb3-freshman-dapp-mood/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png

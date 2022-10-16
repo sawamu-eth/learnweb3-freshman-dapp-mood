@@ -10,9 +10,10 @@ export default function App() {
 }
 
 function Mood() {
-  const [currentMood, setCurrentMood] = useState("unknown");
+  let initialMood = "unknown";
+  const [currentMood, setCurrentMood] = useState(initialMood);
   async function getMood() {
-    const mood = await MoodContract.getMood();
+    const mood = (await MoodContract.getMood()) || initialMood;
     console.log({ mood });
     setCurrentMood(mood);
   }
@@ -26,7 +27,7 @@ function Mood() {
     <div className="row">
       <div className="col s6">
         <p>Here we can SET the mood:</p>
-        <label htmlFor="mood">Set Mood:</label> <br />
+        <label htmlFor="mood">Mood:</label> <br />
         <input type="text" id="mood" />
         <a className="waves-effect waves-light btn" onClick={setMood}>
           Set Mood
@@ -35,7 +36,7 @@ function Mood() {
       </div>
       <div className="col s6">
         <p>Here we can GET the mood:</p>
-        <label htmlFor="moodValue">Set Mood:</label> <br />
+        <label htmlFor="moodValue">Current Mood:</label> <br />
         <input type="text" id="moodValue" readOnly value={currentMood} />
         <a className="waves-effect waves-light btn" onClick={getMood}>
           Get Mood
