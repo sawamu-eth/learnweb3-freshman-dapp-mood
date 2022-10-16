@@ -8,51 +8,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
         <script src="../src/index.js" type="text/babel"></script>
-        <script>
-            const MoodContractABI = [
-                {
-                    "inputs": [],
-                    "name": "getMood",
-                    "outputs": [
-                        {
-                            "internalType": "string",
-                            "name": "",
-                            "type": "string"
-                        }
-                    ],
-                    "stateMutability": "view",
-                    "type": "function"
-                },
-                {
-                    "inputs": [
-                        {
-                            "internalType": "string",
-                            "name": "_mood",
-                            "type": "string"
-                        }
-                    ],
-                    "name": "setMood",
-                    "outputs": [],
-                    "stateMutability": "nonpayable",
-                    "type": "function"
-                }
-            ]
-
-            const MoodContractAddress = "0x7d10330c76e2f4474176670d9abcd01283be5559";
-            let MoodContract;
-            let signer;
-            const provider = new ethers.providers.Web3Provider(window.ethereum, "goerli");
-            provider.send("eth_requestAccounts", []).then(() => {
-                provider.listAccounts().then((accounts) => {
-                    signer = provider.getSigner(accounts[0]);
-                    MoodContract = new ethers.Contract(
-                        MoodContractAddress,
-                        MoodContractABI,
-                        signer
-                    );
-                });
-            });
-        </script>
     </head>
     <body>
         <div id="root"></div>
