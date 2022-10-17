@@ -112,7 +112,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-sawamu.eth - [@wtakaman](https://twitter.com/wtakaman) 
+takaman.eth - [@wtakaman](https://twitter.com/wtakaman) 
 Project Link: [https://github.com/wtakaman/learnweb3-freshman-dapp-mood](https://github.com/wtakaman/learnweb3-freshman-dapp-mood)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
