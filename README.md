@@ -38,6 +38,9 @@
 
 Simple dApp project using Ethers.js and React to interact with a Smart contract.
 
+Demo: [https://learnweb3-freshman-dapp-mood.vercel.app/](https://learnweb3-freshman-dapp-mood.vercel.app/)
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -113,7 +116,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 takaman.eth - [@wtakaman](https://twitter.com/wtakaman) 
-Project Link: [https://github.com/wtakaman/learnweb3-freshman-dapp-mood](https://github.com/wtakaman/learnweb3-freshman-dapp-mood)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
